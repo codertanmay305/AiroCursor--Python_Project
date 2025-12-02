@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AiroCursor</title>
+    <style>
+        body { 
+        font-family: Arial; 
+        text-align: center; 
+        padding: 40px; 
+        }
+        button { 
+        padding: 10px 20px; 
+        font-size: 18px; 
+        margin: 20px; 
+        background: #3498db; 
+        color: white; 
+        border: none; border-radius: 8px; cursor: pointer; }
+        button:hover { background-color: #2980b9; }
+        .gestures { text-align: left; margin: 0 auto; max-width: 600px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h1>AiroCursor - Your Virtual Mouse</h1>
+
+    <form action="/run" method="post">
+        <button type="submit">Start Virtual Mouse</button>
+    </form>
+
+    <div class="gestures">
+        <h2>Hand Gestures:</h2>
+        <ul>
+            <li><strong>Move the cursor:</strong> Index finger tip</li>
+            <li><strong>Right click:</strong> Index finger straight and middle finger bent</li>
+            <li><strong>Left click:</strong> Middle finger straight and index finger bent</li>
+            <li><strong>Double click:</strong> Closing all the fingers</li>
+            <li><strong>Screenshot:</strong> 3 fingers up</li>
+            <li><strong>Recording start:</strong> 4 fingers up</li>
+            <li><strong>Recording stop:</strong> Fist</li>
+            <li><strong>Scroll up:</strong> Thumbs up</li>
+            <li><strong>Scroll down:</strong> Thumbs down</li>
+        </ul>
+    </div>
+</body>
+</html>
